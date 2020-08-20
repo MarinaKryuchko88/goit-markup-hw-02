@@ -1,0 +1,88 @@
+:root {
+  --text-color: #757575;
+  --main-color: #ffffff;
+  --title-color: #212121;
+  --secondary-color: #2f303a;
+  --accent-color: #2196f3;
+  --button-color: #f5f4fa;
+}
+
+/* межбуквенное расстояние:
+навигация - 0,02 em
+секция героя, заголовки портфолио - 0,06 em
+логотип, контент обеих страниц, подвал - 0,03 em
+ */
+
+body {
+  color: var(--text-color);
+  background-color: var(--main-color);
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-hero,
+.logo-footer,
+.address-footer,
+.links-footer a {
+  color: var(--main-color);
+}
+
+.section-hero,
+.section-footer {
+  background-color: var(--secondary-color);
+}
+
+.accent-text,
+.current-link {
+  color: var(--accent-color);
+}
+
+.text-nav a,
+.title-text {
+  color: var(--title-color);
+}
+
+.links-header a {
+  color: var(--text-color);
+}
+
+.text-nav a:hover,
+.text-nav a:focus,
+.links-header a:hover,
+.links-header a:focus,
+.current-link:visited {
+  color: var(--accent-color);
+}
+
+nav span {
+  font-family: Raleway, sans-serif;
+}
+
+main button,
+.button-hero {
+  border: none;
+  border-radius: 4px;
+}
+
+.button-hero {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
+
+.button {
+  color: var(--title-color);
+  background-color: var(--button-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
