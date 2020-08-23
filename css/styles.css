@@ -41,7 +41,7 @@ a {
 .text-hero,
 .logo-footer,
 .address-footer,
-.links-footer a {
+.links-footer .link {
   color: var(--main-color);
 }
 
@@ -55,19 +55,21 @@ a {
   color: var(--accent-color);
 }
 
-.text-nav a,
+.text-nav .link,
 .title-text {
   color: var(--title-color);
 }
 
-.links-header a {
+.links-header .link {
   color: var(--text-color);
 }
 
-.text-nav a:hover,
-.text-nav a:focus,
-.links-header a:hover,
-.links-header a:focus,
+.text-nav .link:hover,
+.text-nav .link:focus,
+.links-header .link:hover,
+.links-header .link:focus,
+.links-footer :hover,
+.links-footer :focus,
 .current-link:visited {
   color: var(--accent-color);
 }
@@ -110,8 +112,8 @@ main button,
   background-color: var(--accent-color);
 }
 
-.text-nav a,
-.links-header a {
+.text-nav .link,
+.links-header .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -134,7 +136,7 @@ main button,
   text-transform: uppercase;
 }
 
-.features p,
+.features .paragraf,
 .address-footer,
 .links-footer {
   font-style: normal;
@@ -151,28 +153,29 @@ main button,
   text-align: center;
 }
 
-.our-team h3 {
+.our-team .title-text {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19x;
-  text-align: center;
 }
 
-.our-team p {
+.our-team .paragraf {
   font-weight: normal;
+}
+
+.our-team .title-text,
+.our-team .paragraf {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.gallery h2 {
+.gallery .title-text {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.gallery p {
+.gallery .paragraf {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
